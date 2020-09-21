@@ -1,4 +1,4 @@
-package mi.packageotty;
+package me.packageotty;
 
 public class Testotty extends Thread {
 
