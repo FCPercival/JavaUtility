@@ -1,5 +1,10 @@
 package me.packageotty.sort;
 
+import com.sun.istack.internal.NotNull;
+
+//!BETA
+//!Funziona solo sort con string di pari lenght di caratteri
+
 public class lsdsort {
     /**
      * Least Significant Digit sort
@@ -13,7 +18,7 @@ public class lsdsort {
      * @param w - Length of the strings in the array
      */
 
-    public static void sort(String[] input, int w) {
+    public static void sort(@NotNull String[] input,@NotNull int w) {
         String[] aux = new String[input.length];
         //ascii chars
         int R = 256;
@@ -43,13 +48,14 @@ public class lsdsort {
         }
     }
 
-//    public static void main(String[] args) {
-//        String[] input = {"4PGC938", "2IYE230", "3CIO720", "1ICK750", "1OHV845"
-//                ,"4JZY524", "1ICK750", "3CIO720", "1OHV845", "1OHV845", "2RLA629"
-//                ,"2RLA629", "3ATW723" };
-//        sort(input, 7);
-//        for(String s : input) {
-//            System.out.println(s);
-//        }
-//    }
+
+    public static void main(String[] args) {
+        String[] input = {"4PGC938", "2IYE230", "3CIO720", "1ICK750", "1OHV845"
+                ,"4JZY524", "1ICK750", "3CIO720", "1OHV845", "1OHV845", "2RLA629"
+                ,"2RLA629", "3ATW723" };
+        sort(input, 7);
+        for(String s : input) {
+            System.out.println(s);
+        }
+    }
 }
