@@ -6,6 +6,6 @@ public class Main {
 
     public static void main(String[] args) {
         Sum s = new Sum();
-        System.out.println(s.sum(10, 10));
+        System.out.println(Sum.div(10, 0));
     }
 }

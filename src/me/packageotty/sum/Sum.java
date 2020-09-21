@@ -7,10 +7,9 @@ public class Sum {
     /**
      * This is a class which is used to sum two type of variables
      *
+     * @param a First addend
+     * @param b Second addend
      * @author Shadotty, FCPercival, Valentino
-     *
-     * @param a  First addend
-     * @param b  Second addend
      */
 
     public byte sum(@NotNull byte a, @NotNull byte b) {
@@ -21,7 +20,7 @@ public class Sum {
         return (short) (a + b);
     }
 
-    public int sum(@NotNull int a, @NotNull  int b) {
+    public int sum(@NotNull int a, @NotNull int b) {
         return a + b;
     }
 
