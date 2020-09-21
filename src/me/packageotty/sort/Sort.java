@@ -37,15 +37,62 @@ public class Sort {
         }
 
     }
+    public void sort(@NotNull Double[] input){
+        int inputLenght= input.length;
 
+        for (int i = 0; i < inputLenght; i++) {
+            for (int j = 0; j < i; j++) {
+                if (input[j] > input[j + 1]) {
+                    double temp = 0;
+                    temp = input[j];
+                    input[j] = input[j + 1];
+                    input[j + 1] = temp;
+                }
 
-    public static void main(String[] args) {
-        Integer[] input = {12, 2211, 1, 0, 11111
-                , 2222, 3235, 65435};
-        sort(input);
-        for(int s : input) {
-            System.out.println(s);
+            }
         }
 
     }
+    public void sort(@NotNull Short[] input){
+        int inputLenght= input.length;
+
+        for (int i = 0; i < inputLenght; i++) {
+            for (int j = 0; j < i; j++) {
+                if (input[j] > input[j + 1]) {
+                    short temp = 0;
+                    temp = input[j];
+                    input[j] = input[j + 1];
+                    input[j + 1] = temp;
+                }
+
+            }
+        }
+
+    }
+    public void sort(@NotNull Long[] input){
+        int inputLenght= input.length;
+
+        for (int i = 0; i < inputLenght; i++) {
+            for (int j = 0; j < i; j++) {
+                if (input[j] > input[j + 1]) {
+                    Long temp = 0L;
+                    temp = input[j];
+                    input[j] = input[j + 1];
+                    input[j + 1] = temp;
+                }
+
+            }
+        }
+
+    }
+
+
+    //public static void main(String[] args) {
+    //    Integer[] input = {12, 2211, 1, 0, 11111
+    //            , 2222, 3235, 65435};
+    //    sort(input);
+    //    for(int s : input) {
+    //        System.out.println(s);
+    //    }
+    //}
 }
