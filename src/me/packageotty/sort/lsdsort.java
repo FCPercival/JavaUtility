@@ -12,6 +12,8 @@ import com.sun.istack.internal.NotNull;
 //!BETA
 //!Funziona solo sort con string di pari lenght di caratteri
 
+    //!fare test velocità lsd sort e sort di java. Per errore ^ magari evitare lsd
+
 public class lsdsort {
     /**
      * Least Significant Digit sort
