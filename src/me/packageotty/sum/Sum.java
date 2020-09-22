@@ -2,6 +2,13 @@ package me.packageotty.sum;
 
 import com.sun.istack.internal.NotNull;
 
+/**
+ * @author Shadotty
+ * @author FPercival
+ * @GitHub https://github.com/Shadotty
+ * @GitHub https://github.com/FCPercival
+ */
+
 public class Sum {
 
     /**

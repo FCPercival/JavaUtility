@@ -2,6 +2,13 @@ package me.packageotty.sort;
 
 import com.sun.istack.internal.NotNull;
 
+/**
+ * @author Shadotty
+ * @author FPercival
+ * @GitHub https://github.com/Shadotty
+ * @GitHub https://github.com/FCPercival
+ */
+
 //!BETA
 //!Funziona solo sort con string di pari lenght di caratteri
 

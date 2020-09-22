@@ -5,6 +5,13 @@ import sun.security.util.Length;
 
 import java.util.Arrays;
 
+/**
+ * @author Shadotty
+ * @author FPercival
+ * @GitHub https://github.com/Shadotty
+ * @GitHub https://github.com/FCPercival
+ */
+
 public class Sort {
     /**
      * Standard sort
