@@ -113,12 +113,12 @@ public class Sort {
     }
 
 
-    public static void main(String[] args) {
-        Integer[] input = {12, 2211, 1, 3, 11111
-                , 2222, 3235, 65435, 12};
-        sort(input, false);
-        for(int s : input) {
-            System.out.println(s);
-        }
-    }
+    //public static void main(String[] args) {
+    //    Integer[] input = {12, 2211, 1, 3, 11111
+    //            , 2222, 3235, 65435, 2154, 54511};
+    //    sort(input, false);
+    //    for(int s : input) {
+    //        System.out.println(s);
+    //    }
+    //}
 }
