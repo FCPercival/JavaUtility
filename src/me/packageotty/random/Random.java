@@ -18,7 +18,7 @@ public class Random {
 
     }
 
-    public static void random(@NotNull Integer[] input,@NotNull int lenght){
+    public static void random(@NotNull Integer[] input, @NotNull int lenght){
 
         for (int i = 0 ; i < lenght; i++) {
             input[i]= Math.toIntExact(Math.round(Math.random()));

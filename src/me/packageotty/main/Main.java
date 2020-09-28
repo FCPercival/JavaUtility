@@ -1,6 +1,6 @@
 package me.packageotty.main;
 
-import me.packageotty.sum.Sum;
+import me.packageotty.arithmetic.Sum;
 
 /**
  * @author Shadotty
@@ -12,7 +12,8 @@ import me.packageotty.sum.Sum;
 public class Main {
 
     public static void main(String[] args) {
-        Sum s = new Sum();
+        Sum s = null;
+        assert false;
         System.out.println(s.sum(10, 0));
     }
 }
