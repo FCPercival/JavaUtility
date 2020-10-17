@@ -22,6 +22,7 @@ public class Sort {
      *
      * @param input - *Type* array to be sorted
      * @param decreasing - False sort number increasing, True number decreasing
+     *! Decreasing not optimized
      */
 
     public static void sort(@NotNull Integer[] input,@NotNull boolean decreasing){
